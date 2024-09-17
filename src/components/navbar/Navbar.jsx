@@ -30,8 +30,8 @@ export default function Navbar() {
         </div>
         <nav className="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
           <div className="container-fluid">
-            <button
-              className="navbar-toggler"
+            {/* <button
+              className="navbar-toggler d-flex align-items-center justify-content-center"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -40,7 +40,7 @@ export default function Navbar() {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon" />
-            </button>
+            </button> */}
             <div
               className="collapse navbar-collapse d-flex align-items-center justify-content-center"
               id="navbarSupportedContent"

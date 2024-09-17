@@ -19,8 +19,8 @@ export default function Card({ tracks, loading }) {
           </div>
         ) : (
           <div className="row">
-            {tracks.map((track) => (
-              <div className="col-lg-4 col-md-6 col-sm-12 py-3">
+            {tracks.map((track, index) => (
+              <div key={index} className="col-lg-4 col-md-6 col-sm-12 py-3">
                 <div className="card w-100">
                   <div className="d-flex align-items-center justify-content-center p-2">
                     <div
