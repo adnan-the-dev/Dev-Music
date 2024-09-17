@@ -9,7 +9,7 @@ export default function Card({ tracks, loading }) {
           <div className="row">
             <div className="col-12 py-5 text-center">
               <div
-                className="spinner-grow"
+                className="spinner-grow text-light"
                 style={{ width: "3rem", height: "3rem" }}
                 role="status"
               >
@@ -42,7 +42,7 @@ export default function Card({ tracks, loading }) {
                           <div className="col-12 py-5 text-center">
                             <div
                               className="spinner-grow"
-                              style={{ width: "3rem", height: "3rem" }}
+                              style={{ width: "3rem", height: "3rem",backgroundColor: "red" }}
                               role="status"
                             >
                               <span className="visually-hidden">
